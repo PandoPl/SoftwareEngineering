@@ -28,6 +28,15 @@ int main()
     int p = 3;
     int q = 4;
     cout << "p=" << p << ", q=" << q << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << "i =" << i << endl;
+    }
+    int i = 0;
+    do {
+        i++;
+        cout << "a = " << i << endl;
+    } while (i < 5);
+    
 }
 
 

@@ -30,7 +30,7 @@ int main()
 
     // TASK(c) - using printf, display the radius and the area using a single printf statement
     // Write solution here
-
+    printf("area = %.3f, radius = %.3f", area, radius);
     //
 }
 

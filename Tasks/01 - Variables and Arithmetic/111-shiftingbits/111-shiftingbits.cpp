@@ -25,12 +25,15 @@ int main()
 	//Right right 4 bits
 	number >>= 4;
 	displayAndCompare(number);
+	
 
 	//TASKS:
 
 	//Shift right by 1 and display
-
-
+	number >>= 1;
+	displayAndCompare(number);
 	//Shift left by 1 and display
+	number <<= 1;
+	displayAndCompare(number);
 
 }
