@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -44,11 +45,15 @@ int main()
 
     //Write task 1 solution here
     int64_t sum = 0L;   //Result needs to be bigger than int to avoid overflow
-
-
+    for (unsigned int n = 0; n < N; n++) {
+        sum += nums[n];
+    }
+    cout << "Sum of all elements in the array nums is " << sum << endl;
     // ***********************************************************************************************************************
     // TASK 2 - calculate the mean of all elements (this will be a fractional value) and display to 1 decimal place accuracy *
     // ***********************************************************************************************************************
+ 
+    cout << "Mean of all elements is " << setprecision(1) << fixed << (double)sum / N << endl;
 
     //Write task 2 solution here
 
